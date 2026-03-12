@@ -1,16 +1,89 @@
-# React + Vite
+# 🚨 Complain Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A simple complaint management platform where users can submit complaints and track their status, while admins manage and resolve them.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## React Compiler
+**Complain Hub** is a complaint management system designed to make reporting and tracking complaints easier and more transparent.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Users can submit their complaints through the platform and track the progress of their complaint in real-time.
+Administrators can review complaints and update their status accordingly.
 
-## Expanding the ESLint configuration
+⚠️ **Note:** This project is currently **under development** and new features will be added soon.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+### 👤 User Features
+
+* 📝 Submit complaints easily
+* 🔍 Track complaint status
+* 📂 View previously submitted complaints
+
+### 🛠️ Admin Features
+
+* 📋 View all user complaints
+* 🔄 Update complaint status
+* 📊 Manage complaint records
+
+---
+
+## ⚙️ How It Works
+
+1. A user submits a complaint through the platform.
+2. The complaint is stored in the system.
+3. The admin reviews the complaint.
+4. The admin updates the complaint status (Pending / In Progress / Resolved).
+5. The user can track the complaint status anytime.
+
+---
+
+## 📊 Project Status
+
+🚧 **Under Development**
+
+Planned improvements include:
+
+* Better UI/UX
+* Email or notification system
+* Complaint category filtering
+* Dashboard analytics for admins
+
+---
+
+## 🧰 Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* Backend (To be integrated)
+* Database (Planned)
+
+---
+
+## 📷 Future Enhancements
+
+* 📱 Mobile responsive design
+* 🔔 Notification system
+* 🔐 User authentication
+* 📈 Admin dashboard analytics
+
+---
+
+## 🤝 Contribution
+
+This project is currently in development.
+Suggestions and improvements are welcome!
+
+---
+
+## 📜 License
+
+This project is created for **learning and development purposes**.
+
+---
+
+⭐ If you like this project, consider giving it a **star** on GitHub!
