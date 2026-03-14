@@ -18,7 +18,7 @@ if(admin.password !== password){
 const token = jwt.sign(
   {username: admin.username},
   SECRET_KEY,
-  {expiresIn : "1h"}
+  {expiresIn : "10m"}
 )
 console.log("Login successful")
 res.json({message:"Login successful",

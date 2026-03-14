@@ -75,7 +75,7 @@ const Home = () => {
        </div>
       </div>
       <div className='complaint-box bg-[#FFF0C4] overflow-hidden rounded-4xl items-center mt-[6vw] w-[48vw] h-96 flex flex-col justify-center p-1 ' >
-        <div className='w-full h-full overflow-auto flex flex-col items-center justify-between' >
+        <div className='w-full h-full overflow-y-auto overflow-x-hidden flex flex-col items-center justify-between' >
           <div className='w-full  flex justify-center'>
           <h1 className=' font-bold text-[#3E0703] text-center text-2xl ' >TRACK YOUR COMPLAIN</h1>
           <img className='h-12 w-12 ' src={readcom} alt="" />

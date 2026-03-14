@@ -2,7 +2,6 @@ const express = require('express');
 const jwt = require('jsonwebtoken');
 const SECRET_KEY = "MY_KEY";
  function adminAuth(req, res, next) {
-  console.log(req.headers)
   const authHeader =  req.headers.authorization;
   if (!authHeader) {
     return res.status(401).json({ message: "Authorization header missing" });

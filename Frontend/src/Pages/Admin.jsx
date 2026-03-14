@@ -37,8 +37,8 @@ const Admin = () => {
           <h1 className='text-[#3E0703] font-bold text-[1.5vw] text-center ' >ENTER LOGIN CREDENTIALS</h1>
           <div>
             <form onSubmit={(e) => prevdef(e)}  className='flex items-center flex-col justify-center' action="">
-              <input className='bg-[#8C1007] text-[#FFF0C4] rounded-4xl w-[80%] mt-7.5 h-[2.5vw] text-center' name='username' onChange={changevalue}  type="text" placeholder='Username' ></input>
-              <input className='bg-[#8C1007] text-[#FFF0C4] rounded-4xl w-[80%] mt-7.5 h-[2.5vw] text-center' name='password' onChange={changevalue} type="password" placeholder='Password' />
+              <input className='bg-[#8c1007d2] text-[#FFF0C4] rounded-4xl w-[80%] mt-7.5 h-[2.5vw] text-center' name='username' onChange={changevalue}  type="text" placeholder='Username' ></input>
+              <input className='bg-[#8c1007d2] text-[#FFF0C4] rounded-4xl w-[80%] mt-7.5 h-[2.5vw] text-center' name='password' onChange={changevalue} type="password" placeholder='Password' />
               <button className='bg-[#3E0703] text-[#FFF0C4] py-[0.6vw] px-[1.5vw] mt-8 rounded-3xl '  type='submit' >Login</button>
             </form>
           </div>
