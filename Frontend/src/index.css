@@ -7,3 +7,17 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8C1007;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255,255,255,0.2) 0,
+    rgba(255,255,255,0.2) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}

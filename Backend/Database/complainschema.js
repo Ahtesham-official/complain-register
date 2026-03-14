@@ -10,7 +10,6 @@ const complainschema = new mongoose.Schema({
   },
   status:{
     type:String,
-    required:true,
     enum: ["requested","processing","resolved"],
     default:"requested"
   }
